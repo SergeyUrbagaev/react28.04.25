@@ -1,10 +1,14 @@
 
 import './App.css'
-
+import Button from './components/Button'
 function App() {
 
   return (
-      <div>Проект</div>
+    <>
+      <h1>Заголовок</h1>
+      <p>Текст</p>
+      <Button/>
+    </>
   )
 }
 
