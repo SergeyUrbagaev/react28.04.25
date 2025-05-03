@@ -1,6 +1,7 @@
 
 import './App.css'
 import Button from './components/Button'
+import JournalItem from './components/journalemItem/JournallItem'
 function App() {
 
   return (
@@ -8,6 +9,8 @@ function App() {
       <h1>Заголовок</h1>
       <p>Текст</p>
       <Button/>
+ 
+      <JournalItem/>
     </>
   )
 }

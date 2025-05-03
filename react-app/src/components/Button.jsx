@@ -1,12 +1,11 @@
-
+import React, { useState } from 'react';
 function Button() {
 
-const [cont, setCont] = useState()
 
   return (
-    <>
+    <div>
         <button className="button">Сохранить</button>
-    </>
+    </div>
   )
 }
 
